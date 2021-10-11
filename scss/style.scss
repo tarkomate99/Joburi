@@ -14,6 +14,11 @@
 .job-listings-container {
 
     .job-list-item {
+
+        .row {
+            width: 100%;
+        }
+
         img {
             max-width: 80%;
             max-height: 80%;
@@ -38,6 +43,11 @@
         font-size: 20px;
         color: #a2c0be;
         margin-bottom: 5px;
+        a{
+            &:hover{
+                text-decoration: underline;
+            }
+        }
     }
     .job-button{
         font-size: 8px;
@@ -71,20 +81,25 @@
             text-align: center;
             margin-top: 10px;
         }
-        .job-company_name{
+        .job-button{
+            float: unset;
+            display: flex;
+            justify-content: center;
+        }
+        .job-company_name{ 
             text-align: center;
             margin-top: 10px;
         }
         .job-license{
-            text-align: left;
+            text-align: center;
             margin-top: 10px;
         }
         .job-country{
-            text-align: left;
+            text-align: center;
             margin-top: 10px;
         }
         .job-payment{
-            text-align: left;
+            text-align: center;
             margin-top: 10px;
         }
         .job-time-button{
