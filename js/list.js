@@ -30,7 +30,7 @@ function appendData(data) {
                                 <div class="row ml-l">
                                 <div class="col-12 job-title"> 
                                     <div class="row">
-                                        <div class="col-lg-9 col-12"><a href="${job.slug}">${job.title}</a></div>
+                                        <div class="col-lg-9 col-12" on><a href="single.php?slug=${job.slug}">${job.title}</a></div>
                                         <div class="col-lg-3 col-12 job-button"><button class="btn btn btn-outline-primary float-right job-time-button">Full Time</button></div>
                                     </div>
                                     
@@ -52,7 +52,6 @@ function appendData(data) {
     }
     main.innerHTML = jobsHTML;
 }
-
 
 {/* <div class="col-md-4 col-lg-3 job-license">${job.license} permis de conducere</div>
 <div class="col-md-4 col-lg-3 job-country"><i class="fas fa-map-marker-alt"></i>${job.country}</div>
