@@ -296,11 +296,21 @@ jQuery(document).ready(function($) {
 
       var hash = this.hash;
 
+		//const scrollTo = $()
+
+	  console.log("==> ", $(this).attr("href")); 
+
+	if ( $($(this).attr("href")).length ) {
+
       $('html, body').animate({
         'scrollTop': $(hash).offset().top
       }, 600, 'easeInOutExpo', function(){
         window.location.hash = hash;
       });
+
+	} else {
+		window.location.href=`index.php${$(this).attr("href")}`;
+	}
 
     });
   };

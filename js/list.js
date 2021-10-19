@@ -25,7 +25,7 @@ function appendData(data) {
             <div class="row">
                 <div class="col-12 job-list-item mb-4">
                     <div class="row">
-                        <div class="col-lg-2 imagebox"><img src="${job.company_image}" alt="job-img" class="image"/></div>
+                        <div class="col-lg-2 imagebox ${ ( !job.company_image ? " d-flex align-items-center justify-content-center" : "" ) }">${( job.company_image ? `<img src="${job.company_image}" alt="job-img" class="image"/>` : job.company_name )}</div>
                             <div class="col-lg-10 d-flex align-items-center">
                                 <div class="row ml-l">
                                 <div class="col-12 job-title"> 

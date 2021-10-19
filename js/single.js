@@ -7,7 +7,7 @@ $.getJSON("https://driveral.com/hu/api/job?uid=3e7ccfff-eab8-40b3-b055-98fbd40c2
 
 function appendData(data) {
     var main = document.getElementById('job-information');
-    
+
     let informationHTML = "";
     
         informationHTML+=`
@@ -53,14 +53,15 @@ function appendData(data) {
                 </div>
             </div>
             <div class="row">
-                    <div class="col col-lg-8">
-                    <div class="mb-5">${data.description}</div>
-                    <div class="mb-5">${data.expectations}</div>
-                    <div class="mb-5">${data.experiences}</div>
-                    <div class="col-lg-4 job-detail-box" style="max-width:60%">
-                        <div class="bg-light p-3 border rounded mb-4>
-                            <h3 class="text-primary mt-3 h5 mb-3 style="color: #a2c0be">Agregator de locuri de muncă</h3>
-                            <ul class="list-unstyled mb-0>
+                    <div class="col-12 col-lg-8">
+                        <div class="mb-5">${data.description}</div>
+                        <div class="mb-5">${data.expectations}</div>
+                        <div class="mb-5">${data.experiences}</div>
+                    </div>
+                    <div class="col-12 col-lg-4 job-detail-box" style="max-width:60%">
+                        <div class="bg-light p-3 border rounded mb-4">
+                            <h3 class="text-primary mt-3 h5 mb-3" style="color: #a2c0be">Agregator de locuri de muncă</h3>
+                            <ul class="list-unstyled mb-0">
                                 <li class="mb-2">
                                 <div style="color: black"><strong>Publicat: </strong> ${data.date}</div>
                                 </li>

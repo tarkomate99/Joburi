@@ -13,7 +13,7 @@
 
 .job-listings-container {
 
-    .job-list-item {
+    .job-list-item { 
 
         .row {
             width: 100%;
@@ -37,6 +37,10 @@
             -moz-transform: translateX(-50%) translateY(-50%);
             -webkit-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%) translateY(-50%);
+        }
+
+        @media only screen and (max-width: 992px) {
+            margin-bottom:3rem !important;
         }
     }
     .job-title{
