@@ -112,3 +112,42 @@
         
     }
 }
+
+.pagenumbers{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+    button{
+        width: 30px;
+	    height: 30px;
+
+	    appearance: none;
+        border: none;
+        border-radius: 50%;
+        outline: none;
+        cursor: pointer;
+
+        background-color: #a2c0be;
+
+        margin: 5px;
+        transition: 0.4s;
+
+        color: #FFF;
+        font-size: 15px;
+        text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+
+        &:hover{
+            background-color: #000;
+        }
+
+        .active{
+            background-color: #44EEAA;
+            box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+
+}

@@ -11,4 +11,37 @@
         -webkit-transform: translateX(-50%) translateY(-50%);
         transform: translateX(-50%) translateY(-50%);
     }
+    .imagebox{
+        border: 1px solid #a2c0be; width:100px; height: 100px; text-align:center;
+    }
+    .fa-check{
+        margin-right: 10px;
+    }
+    .fa-suitcase{
+        margin-right: 10px;
+    }
+    .fa-map-marker-alt{
+        margin-right: 10px;
+    }
+    .fa-phone-square{
+        margin-right: 10px;
+    }
+    .fa-envelope{
+        margin-right: 10px;
+    }
+    .telephone_and_email{
+        background-color: #a2c0be; text-align:center; color:white; margin-top: 10px;
+    }
+    .job-description{
+        margin-top: 10px;
+    }
+    .job-detail-box{
+        max-width: 60%;
+    }
+    .detail-box-title{
+        color: #a2c0be;
+    }
+    .list-element{
+        color: black;
+    }
 }

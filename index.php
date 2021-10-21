@@ -19,6 +19,7 @@
     
     <section class="job-section">
     <div class="container job-listings-container" id="jobs-list"></div>
+    <div class="pagenumbers" id="pagination"></div>
     </section>
 
 
