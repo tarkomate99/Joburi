@@ -17,7 +17,7 @@
       </div>
     </section>  
     
-    <section class="job-section">
+    <section class="job-section" id="job-section">
     <div class="container job-listings-container" id="jobs-list"></div>
     <div class="pagenumbers" id="pagination"></div>
     </section>

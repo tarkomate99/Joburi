@@ -12,7 +12,7 @@ function appendData(data) {
     
         informationHTML+=`
         <div class="row">
-        <div class="col-12 mb-4">
+        <div class="col-12 mb-4 job-list-item">
             <div class="row">
                 <div class="col-lg-2 imagebox${ ( !data.company_image ? " d-flex align-items-center justify-content-center" : "" ) }">${( data.company_image ? `<img src="${data.company_image}" alt="job-img" class="image"/>` : data.company_name )}</div>
                                                                         <div class="col-lg-10 d-flex align-items-center">
@@ -24,9 +24,9 @@ function appendData(data) {
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="col">
-                                                                                    <div class="row">
-                                                                                        <div class="col-md-4 col-lg-3"><i class="fas fa-suitcase"></i>${data.company_name}</div>
-                                                                                        <div class="col-md-4 col-lg-3"><i class="fas fa-map-marker-alt"></i>${data.country}</div>
+                                                                                    <div class="row job-company-country">
+                                                                                        <div class="col-md-12 col-lg-3"><i class="fas fa-suitcase"></i>${data.company_name}</div>
+                                                                                        <div class="col-md-12 col-lg-3"><i class="fas fa-map-marker-alt"></i>${data.country}</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>

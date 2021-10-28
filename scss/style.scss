@@ -67,6 +67,13 @@
     .fa-dollar-sign{
         margin-right: 10px;
     }
+    @media only screen and (max-width: 992px){
+        .job-list-item{
+            border: 1px solid rgb(235, 234, 232);
+            padding: 10px;
+            border-radius: 10px;
+        }
+    }
     @media only screen and (max-width: 975px) {
         .job-list-item{
             img{
@@ -142,12 +149,17 @@
         &:hover{
             background-color: #000;
         }
-
-        .active{
-            background-color: #44EEAA;
-            box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
-        }
+        
+    }
+    .color{
+        background-color: #a2c0be;
+    }
+    .active{
+        background-color: #44EEAA;
+        box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
     }
 
-
+}
+.active_page {
+    background-color: red;
 }
