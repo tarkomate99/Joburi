@@ -118,6 +118,13 @@
         }
         
     }
+    
+}
+
+@media only screen and (max-width: 576px){
+    .row.job{
+        padding: 0px 10px;
+    }
 }
 
 .pagenumbers{
@@ -149,15 +156,17 @@
         &:hover{
             background-color: #000;
         }
+
+        &.active {
+            background-color: #000;
+        }
         
     }
-    .color{
-        background-color: #a2c0be;
-    }
-    .active{
+
+/*     .active{
         background-color: #44EEAA;
         box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
-    }
+    } */
 
 }
 .active_page {
